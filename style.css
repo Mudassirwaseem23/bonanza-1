@@ -2,25 +2,35 @@
     font-family: "Rajdhani";
     src: url('Rajdhani-Medium.ttf');
 }
-.a{
-    width: 600px;
+*{
+    font-family: "Rajdhani";
+
 }
+.a{
+    width: 400px;
+    margin: 20PX;
+}
+
 @media only screen and (max-width: 600px){
 .a {
-    width: 500px;
+    width: 250px;
 }    
 }
 @media only screen and (max-width: 500px){
     .a {
-        width: 400px;
+        width: 200px;
     }    
     }
 @media only screen and (max-width: 400px){
      .a{
-        width: 300px;
+        width: 170px;
     }    
     }
-
+    @media only screen and (max-width: 300px){
+        .a{
+           width: 120px;
+       }    
+       }
         
         
 #carouselExampleIndicators{
@@ -42,8 +52,9 @@ color: white;
 .c{
     text-align: center;
     font-family: cursive;
-    text-decoration: underline;
-    margin: 20px;
+    text-decoration: underline #A0522D;
+    color: #A0522D;
+        margin: 20px;
     font-weight: bolder ;
     text-shadow: 2px 2px 3px #C0C0C0;
     padding: 40px;
@@ -59,16 +70,23 @@ margin-top: 30px;
     margin-bottom: 50px;
 }
 .navbar {
-    background-color: #C0C0C0 !important;
+    background-color: #A0522D !important;
     font-family: "Rajdhani";
-    color: violet !important;
     font-weight: bolder;
     font-size: 20px;
-    padding: 10px;
     margin: 10px;
-    
-}
+    text-align: center;
+    border-radius: 10px;
 
+}
+.navbar li a:hover{
+background-color:  white ;
+border-radius: 10px  ;
+transition: 0.s;
+border: 1px solid;
+color: #A0522D !important;
+
+    }
 .x{
     padding: 10px;
     margin: 10px;
@@ -81,7 +99,8 @@ margin-top: 30px;
     text-align: center;
     margin: 70px;
     font-family: cursive;
-    text-decoration: underline;
+    text-decoration: underline #A0522D;
+    color: #A0522D;
 
     font-weight: bolder ;
     text-shadow: 2px 2px 3px #C0C0C0;
@@ -92,14 +111,15 @@ margin-top: 30px;
     margin: 70px;
     font-family: cursive;
     font-weight: bolder ;
-    text-decoration: underline;
+    text-decoration: underline #A0522D;
+    color: #A0522D;
 
     text-shadow: 2px 2px 3px #C0C0C0;
     margin-top: 10px;
 
 }
 .btn{
-    background-color: #0f0f0a !important;
+    background-color: #A0522D !important;
     color: white !important;
     width: 100%;
     padding: 10px !important;
@@ -119,14 +139,14 @@ margin-top: 30px;
 marquee{
     border-radius: 10px;
     text-align: center;
-    background-color: #C0C0C0;
-    width: 90%;
-    color: black;
+    background-color: #A0522D;
+    width: 100%;
+    color: white;
     margin-top: 30px;
     height: 30px;
-    margin-left: 40px;
     font-weight: 500;
     font-size: 22px;
+    
 }
 
 
@@ -134,7 +154,18 @@ marquee{
     width: 90%;
     margin: 20px;
     text-align: center;
+    border-radius: 10px;
 }
+
+@media only screen and (max-width: 300px){
+    .image1 {
+        height: 100px;
+    }    
+    }
+
+
+
+
 .t{
     background-color: blue;
     color: white;
@@ -145,7 +176,7 @@ marquee{
 
 
 .container1{
-    background-color: #0f0f0a ;
+    background-color: #A0522D ;
     color: white;
     padding: 10px;
     margin: 10px;
@@ -153,13 +184,72 @@ marquee{
 
 }
 .footer-copyright{
-    background-color: #0f0f0a;
+    background-color: #A0522D;
     color: white;
     padding: 10px;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.q{
+    width: 95%;
+    justify-content: center;
+    margin: 15px;
+    font-weight: bolder ;
+    background-color:  #DEB887;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.b{
+    text-align: center;
+    font-family: "Rajdhani";
+
+}
+.t{
+    background-color: white !important;
+    color: black;
+    font-size: 52px;
+    text-decoration: underline;
+    
+}
+.btn2{
+    height: 40px;
+    width: 170px;
+    color: white !important;
+    background-color: white;
+    border-radius: 20px !important;
+}
+.aq{
+    border: none;
+    height: 2px;
+    background-color: #DEB887;
+    border-radius: 20px;
+}
+.card{
+    border: 1px solid;
+    text-align: center;
+}
+
+
+p a {
+    color: white !important;
+}
+
+/* @media only screen and (max-width: 300px){
+    marquee{
+       width: 100%;
+       border-radius: 10px;
+       text-align: center;
+       background-color: #A0522D;
+       color: white;
+       margin-top: 30px;
+       height: 30px;
+       margin-left: 40px;
+       font-weight: 500;
+       font-size: 22px;
+   }    
+   } */
 
 
 
@@ -167,3 +257,16 @@ marquee{
 
 
 
+
+
+   
+   @media only screen and (max-width: 300px){
+    .card{
+       width: 100%;
+   }    
+   }
+   @media only screen and (max-width: 400px){
+    .card{
+       width: 100%;
+   }    
+   }
